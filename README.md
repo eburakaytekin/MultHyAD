@@ -49,18 +49,26 @@ Koray Kayabol  via <koray.kayabol@gtu.edu.tr>.
 
 demo matlab code demonstrates of the usage of the code.
 	
-misp: compute the superpixel segmentation for a greyscale SAR image.
-usage:
-	[sMap] = misp(img,RegionSize);
-	[sMap] = misp(img,RegionSize,alfa);
+mainScript: compute the anomaly detection score for  Multivariate Skewed t distribution ,Multivariate Cauchy distribution, Multivariate Jeffrey’s distribution , Multivariate Student’s t distribution and Multivariate Laplace distribution, Multivariate Normal distribution background modelling .
+
+usage: 
+	
 
 Input:
-	img 		: is greyscale SAR image
-	RegionSize      : is the starting size of the superpixels.
-	alfa 	        : is concentration parameter of the mixture  proportions (default = 1000000 )
+	data 		: is Real HSI.
+	map             : is anomaly map.
+	diffim 	        : is Real HSI - Synthesized HSI. ( DAT.D1, DAT.D2, DAT.D3, DAT.D4, DAT.D5, DAT.D6, DAT.D7, DAT.D8, DAT.D9, DAT.D10) 
+        FARValue        : is False Alarm Rate for Detection Map
+        FiltOn          : is Filter Selection.
+        PCAOn           : is Principal component analysis ON/OFF Selection.
+	
 	
 Output:
-	sMap 		 : raw superpixel map.
+ Result
+	.AUCScores 		  : is The Area Under the Curve score.
+	.FARScores                : is False Alarm Rate score.
+	.elapsedTimeMean          : is processing time mean.
+	.dtmap                    : is detection map.
 			
 */
 
