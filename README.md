@@ -31,11 +31,11 @@ the aforementioned paper in any resulting publication.
 
 If you have any questions about the code, please contact us.
 
+Koray Kayabol  via <koray.kayabol@gtu.edu.tr>,
+
 Ensar Burak Aytekin via <ebaytekin@gtu.edu.tr>
 
-Sertac Arisoy  via <sarisoy@gtu.edu.tr>, 
-
-Koray Kayabol  via <koray.kayabol@gtu.edu.tr>.
+Sertac Arisoy  via <sarisoy@gtu.edu.tr>, .
 
 
 *******************************************************************		
