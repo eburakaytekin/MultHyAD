@@ -24,15 +24,13 @@ if FiltOn>0  && FiltOn<6
 
 end
 
-%% Anomaly Detection for MV AllSkewed Distribution
+%% Anomaly Detection for MV Skewed Distribution
 [Result.AUCMeanSkewed,Result.AucModeSkewed,Result.elapsedTimeSkewed,Result.index,...
     Result.SkwFARMeanResult,Result.SkwFARModeResult,...
     Result.dtmapSkwMeanArray,Result.dtmapSkwModeArray]=AllSkewed(DAT,FiltOn,PCAOn);
 
 
-%% Anomaly Detection for GRX
-% This function is for comparison only. No preprocessing was applied to the data.
-[Result.AUC_GRX,Result.elapsedTimeGRX,Result.FAR_GRX,...
-    Result.dtmapGRXMeanArray]=AllGRX(data);
+%% Anomaly Detection for MV Normal Distribution
+[Result.AUCMVN,Result.FARMVN,Result.elapsedTimeMVN,Result.dtmapMVN,Result.ScoresDataMVN]=mvnd(data,DAT);
 
 end
