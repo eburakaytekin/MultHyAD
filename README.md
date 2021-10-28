@@ -54,12 +54,12 @@ Input:
 	map             : is anomaly map.
 	
 	diffim 	        : is Real HSI - Synthesized HSI.
+        
+	FARValue        : is False Alarm Rate for Detection Map
 	
-        FARValue        : is False Alarm Rate for Detection Map
+	FiltOn          : is Filter Selection.
 	
-        FiltOn          : is Filter Selection.
-	
-        PCAOn           : is Principal component analysis ON/OFF Selection.
+	PCAOn           : is Principal component analysis ON/OFF Selection.
 	
 	
 Output:
