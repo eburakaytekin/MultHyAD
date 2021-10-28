@@ -33,7 +33,7 @@ If you have any questions about the code, please contact us.
 
 Koray Kayabol  via <koray.kayabol@gtu.edu.tr>,
 
-Ensar Burak Aytekin via <ebaytekin@gtu.edu.tr>
+Ensar Burak Aytekin via <burak.aytekin@tubitak.gov.tr>
 
 Sertac Arisoy  via <sarisoy@gtu.edu.tr>, .
 
