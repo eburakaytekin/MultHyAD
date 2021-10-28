@@ -64,7 +64,7 @@ Input:
 	
 Output:
  
-	 Result.AUCScores 		  : is The Area Under the Curve score.
+	 Result.AUCScores 		 : is The Area Under the Curve score.
 	
 	 Result.FARScores                : is False Alarm Rate score.
 	
