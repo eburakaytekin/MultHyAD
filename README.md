@@ -1,10 +1,9 @@
-/******************************************************************
-*
-*		Skewed t-distribution for Hyperspectral Anomaly Detection based on Autoencoder		
-*												
+
+******************************************************************
+* Skewed t-distribution for Hyperspectral Anomaly Detection based on Autoencoder														
 ********************************************************************
 
-/* Copyright 2021,Koray Kayabol, Ensar Burak Aytekin, Sertac Arisoy, Ercan Engin Kuruoglu
+Copyright 2021, Koray Kayabol, Ensar Burak Aytekin, Sertac Arisoy, Ercan Engin Kuruoglu
 
 All Rights Reserved
 
@@ -17,13 +16,9 @@ the author not be used in advertising or publicity pertaining to
 distribution of the software without specific, written prior
 permission.
 
-*/
 
-/
-*****************************************************************
-* 			
-*				General information
-*	
+*****************************************************************			
+* General information	
 ********************************************************************
 
 Thanks for your interest in our work. This is a MATLAB implementation for the
@@ -35,24 +30,22 @@ If you use this software, you should cite
 the aforementioned paper in any resulting publication.
 
 If you have any questions about the code, please contact us.
-Ensar Burak Aytekin <ebaytekin@gtu.edu.tr>
+
+Ensar Burak Aytekin via <ebaytekin@gtu.edu.tr>
+
 Sertac Arisoy  via <sarisoy@gtu.edu.tr>, 
+
 Koray Kayabol  via <koray.kayabol@gtu.edu.tr>.
 
 
-/*****************************************************************
-* 			
-*				      Usage						
-*		
+*******************************************************************		
+* Usage								
 *******************************************************************
 
 
 demo matlab code demonstrates of the usage of the code.
 	
 mainScript: compute the anomaly detection score for  Multivariate Skewed t distribution ,Multivariate Cauchy distribution, Multivariate Jeffrey’s distribution , Multivariate Student’s t distribution and Multivariate Laplace distribution, Multivariate Normal distribution background modelling .
-
-usage: 
-	
 
 Input:
 	data 		: is Real HSI.
@@ -70,5 +63,4 @@ Output:
 	.elapsedTimeMean          : is processing time mean.
 	.dtmap                    : is detection map.
 			
-*/
 
