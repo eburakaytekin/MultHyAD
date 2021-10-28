@@ -1,4 +1,4 @@
-% Copyright (c) 2021, Ensar Burak Aytekin (burak.aytekin@tubitak.gov.tr)
+% Copyright 2021, Koray Kayabol, Ensar Burak Aytekin, Sertac Arisoy, Ercan Engin Kuruoglu
 % All rights reserved.
 % 
 % Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -20,10 +20,10 @@ addpath Jeffry
 addpath StudentT
 addpath SkewedT
 addpath Laplace
-addpath GRX
+addpath MVN
 
 
-% False Alarm Rate fotr Detection Map 
+% False Alarm Rate for Detection Map 
 DAT.FARValue=0.05; 
 
 FiltOn=1; % 1 - stdfilt, 2- average+ square, 3- closingfilter, 4- closingfilter + average+ square 5- No filter
@@ -36,7 +36,7 @@ load 'abu-airport-2.mat'
 DAT.map=map;
 
 load diffim_airport2_1.mat
-DAT.D1=data;
+DAT.D1=diffim;
 load diffim_airport2_2.mat
 DAT.D2=diffim;
 load diffim_airport2_3.mat
